@@ -1,0 +1,51 @@
+@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic; 
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+@{ var root = Model.Source.root; }
+@helper RenderNodes(IList<MenuNode> nodes) {
+    var iCounter = 1;
+    var sWid = "";
+    foreach (var node in nodes) {
+        if (node.Depth > 0) {
+            <li>
+                <a href="@node.Url">@node.Text</a>
+            </li>
+            
+
+        } else {
+        <span class="m m0 mainMenu">
+            @if (iCounter < 7)  // Main site menu
+            {
+                <span class="mi mi0 id58 root first">
+                                @if (node.Enabled) {
+                                    <a href="@node.Url">@node.Text</a>
+                                } else {
+                                    @node.Text
+                                }
+                                <ul class="subMenu">
+                                @RenderNodes(node.Children)
+                                </ul>
+                </span>
+            }
+            @if (iCounter == 1) {
+            }
+                    
+        </span>
+        }
+        iCounter++;
+    }
+}
+
+@RenderNodes(root.Children)
+
+
+<script>
+$(document).ready(function() {
+    $(".root").hover(function() {
+        $(this).children("ul").show();
+    },function() {
+        $(this).children("ul").hide();
+    })
+})
+
+</script>

@@ -1,0 +1,983 @@
+body
+{
+background: #000;
+
+
+background-image: url('images/space4.gif');
+
+background-repeat: repeat;
+
+
+height:		100%;
+margin: 	0px;
+
+padding: 	0px;
+color: #FFFFFF;
+
+}
+
+a, a:link, a:visited, a:active
+ {
+ color: 			#25a6de;
+
+ text-decoration: 	none;
+
+ font-family: 		Arial, Verdana, Helvetica, sans-serif;
+ fontweight:
+normal;
+
+}
+a:hover
+{color: #9bccdc;
+
+text-decoration: none;
+
+}
+    a.dnnPrimaryAction{ color:#efefef; }
+
+#printBtnRt {
+	float:right;
+}
+#printBtnRt:hover {
+cursor:pointer;
+}
+
+
+/* Search Results */
+.dnnSearchResults span {
+font-size:14px;
+}
+.dnnSearchResults table {
+width:100%;
+}
+.dnnSearchResults td {
+padding:10px;
+vertical-align:top;
+}
+.dnnSearchResults td span {
+font-size:12px;
+}
+.dnnSearchResults .dnnGridItem
+{
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+}
+.dnnSearchResults .dnnGridAltItem
+{
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+}
+
+.dnnSearchResults td span.SubHead, .dnnSearchResults td a {
+font-size:16px;
+font-weight:700;
+color: #888;
+}
+.dnnSearchResults td span.SubHead {
+	color: #555;
+}
+.dnnSearchResults span:last-child
+{
+color: grey;
+font-size: 10px;
+}
+
+
+.naviebar {
+
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+    background-image: url(images/nav_slice_horiz.png);
+    background-repeat: no-repeat;
+    background-position: center 83px;
+       
+    width: 940px;
+    padding-left: 30px;
+    height: 50px;
+    padding-top: 45px;
+}
+
+
+
+.mainMenu {
+	vertical-align: bottom;
+
+	}
+	
+.content_body p { margin: 0;
+ }
+	
+	
+.mainMenu .root     {
+	padding: 10px;
+
+	padding-top: 3px;
+
+
+	color: white;
+
+	font-weight: bold;
+
+	font-size: 1.5em;
+
+	float: left;
+
+}
+
+.root span.txt {
+	}
+
+    .mainMenu:hover {
+        cursor: pointer;
+    }
+    .root  a{
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+
+#socialheader {
+	background-color: #A6A8AB ;
+
+	color: white;
+
+	height: 30px;
+
+	padding-top:3px;
+
+	font-size: 1.2em;
+
+	top: 0px;
+
+	clear:right;
+
+	
+}
+
+
+#socialheader div.txt a:hover {
+	color:#ddd !important;
+}
+#socialheader div.txt2:hover {
+	color:#ddd;
+	cursor: pointer;
+}
+.txt2 .mainMenu  a:hover {
+color: #A6A8AB !important;
+}
+
+
+#socialheader div {
+	width: 1400px;
+
+	margin: 0 auto;
+
+}
+#socialheader span {
+	vertical-align: bottom;
+
+	height: 20px;
+
+}
+
+
+#socialheader div.txt {
+	float: left;
+
+	width: auto;
+
+	border-right: 1px solid white;
+
+	padding: 3px;
+
+	padding-right: 5px;
+
+}
+#socialheader div.txt2 {
+	float: right;
+
+	width: auto;
+
+	border-left: 1px solid white;
+
+	padding: 3px;
+
+	padding-left: 5px;
+
+}
+
+#socialheader img {
+	padding-left: 5px;
+
+}
+#socialheader a{
+	color: #4D4D4F;
+
+}
+#socialheader a:hover {
+	color: #C0C0C0;
+}
+
+#socialheader a:active a:visited {
+	color: white;
+}
+
+#socialheader input {
+	outline: none;
+}
+
+
+
+.nav2qqq{
+	background-image: url('images/menu2.png');
+
+	background-repeat: repeat-x;
+
+	background-position: 0px 24px;
+
+	border: 1px solid red;
+
+}
+.nav2qqqhover {
+	background-image: url('~/Portals/_default/Skins/ASB_blue/images/menu2h.png');
+
+	background-repeat: repeat-x;
+
+	background-position: 0px 0px;
+
+	border: 1px solid red;
+
+}
+
+.nav3qqqhover {
+	background-image: url('Portals/_default/Skins/ASB_blue/images/menu3h.png');
+
+	background-repeat: repeat-x;
+
+	background-position: 0px 0px;
+
+	}
+
+.mainMenu .m {
+ background-color: #FFF;
+
+	font-family: arial;
+
+ filter: alpha(opacity=85);
+
+ opacity: .85;
+
+ color: #4D4D4F;
+
+	font-size: 1.0em;
+
+	padding: 5px;
+
+	z-index: 100;
+
+	width: 120px;
+
+	margin-top:10px;
+
+	
+ }
+ 
+ .mainMenu .m td:hover{
+	color: #A6A8AB;
+ }
+ 
+.mainMenu .m  td{
+	padding-top: 5px;
+
+	padding-bottom: 5px;
+
+	background-image: none;
+
+	text-align: left;
+
+	background-image: url('images/submenu_divider.png');
+
+	background-repeat: no-repeat;
+
+	background-position: 0px 0px;
+
+}
+.mainMenu .m tr:first-child td{
+	background-image: none;
+}
+ 
+ 
+ #copyright {
+	width: 950px;
+
+	text-align: right;
+
+	margin: auto;
+
+	
+ }
+ 
+ .SkinObject {
+ }
+ 
+ 
+ #dnn_ContentPane {
+	width: 950px;
+
+	margin: 0 auto;
+
+ }
+
+ 
+
+/*------------------------------------------------*/
+/* Slide jquery
+/*------------------------------------------------*/
+    #container {
+	    position:relative;
+
+	    z-index:0;
+
+	    width:1400px;
+
+	    padding:0px;
+
+	    margin:0 auto;
+
+	
+    }
+
+    #example {
+	    position:relative;
+
+	    width:1400px;
+
+	    height:296px;
+
+	}
+
+    /* Slide -*/
+    #slides {
+	    position:absolute;
+
+	    z-index:9;
+
+	    top:0px;
+ left:0px;
+
+    }
+
+    .slides_container {
+	    display:none;
+
+	    position:relative;
+
+	    width:1400px;
+
+	    overflow:hidden;
+
+    }
+
+    .slides_container a {
+	    display:block;
+
+	    width:1400px;
+
+	    height:296px;
+
+	}
+
+    .slides_container a img {
+	    display:block;
+
+    }
+
+    /* Next/Prev buttons 
+    -------------------------------------*/
+    #slides .next, #slides .prev {
+	    display: block;
+
+        position: absolute;
+	   
+	    width: 10px;
+ height: 20px;
+
+	    /* width: 10px;
+ height: 20px;
+   5-item rotator */
+	    bottom: 5px;
+ left: 12px;
+
+	    padding: 0;
+
+	    z-index:12;
+
+    }
+
+    #slides .prev {  background: transparent url('images/left-arrow.png') center center no-repeat;
+  }
+    #slides .next {	left:96px;
+  background: transparent url('images/right-arrow.png') center center no-repeat;
+ }
+
+    /* Page link -*/
+    .pagination_wrap { 
+	    display: inline-block;
+
+	    position: absolute;
+
+	    z-index: 10;
+
+	    bottom: 0;
+ right: 0;
+
+	    /* width: 128px;
+ height: 30px;
+   5-item rotator */
+		width: 118px;
+ height: 30px;
+
+	    opacity: 0.8;
+
+	    background-color: #eee;
+
+    }
+    .pagination {
+	    position: absolute;
+
+	    z-index: 11;
+
+	    bottom: 0;
+ right: 0;
+
+	    padding: 0;
+
+		margin: 27px 30px;
+
+	    /* margin: 10px 40px;
+  5-item rotator */
+    }
+
+    .pagination li {
+	    float:left;
+
+	    margin:0 3px;
+
+	    list-style:none;
+
+    }
+
+    .pagination li a {
+        float:left;
+
+	    display:block;
+
+	    width:9px;
+ height:0;
+
+	    padding-top:8px;
+
+	    background-image:url(images/pagination.png);
+
+	    background-position:0 0;
+
+	    overflow:hidden;
+
+    }
+
+    .pagination li.current a {
+	    background-position:0 -9px;
+
+    }
+
+
+	
+	
+	
+/*------------------------------------------------*/
+/* LOGIN */
+/*------------------------------------------------*/
+    #login{	float:right;text-align:right;}
+	
+	#login .registerGroup, 
+	#login .registerGroup *, 
+	#login .loginGroup, 
+	#login .loginGroup * {	display:block; }	
+
+	#login .registerGroup,
+	#login .loginGroup {
+		float:left;
+		padding:0;
+		margin:0;
+		width: auto;
+	} 
+	
+	#login .registerGroup li:first-child:hover {border-left:#222;}
+	
+	/* Register Group Styles */
+	#login .registerGroup li { 	float:left; }
+	#login .registerGroup .buttonGroup {margin-right:0;}
+	
+	#login .registerGroup a,
+	#login .loginGroup a{
+		display:block;
+		position:relative;
+		height:25px;
+		min-width:12px;
+		padding: 7px 15px 0 15px;
+		 
+		color: #FFF;
+		font-size:11px;
+		vertical-align: middle;
+	}
+	
+	#login .xregisterGroup a:hover,
+	#login .xloginGroup a:hover {
+	
+		background: rgb(45,45,45); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(45,45,45,1) 0%, rgba(86,86,86,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,45,45,1)), color-stop(100%,rgba(86,86,86,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#565656',GradientType=0 ); /* IE6-9 */
+		
+		color:#ddd;
+		text-shadow: 0px -1px 0px #333333;
+	}
+	#login .registerGroup a:hover,
+	#login .loginGroup a:hover {
+		color:#ddd;
+	}
+	#login .registerGroup a:active,
+	#login .loginGroup a:active {
+		color:#fff;
+		text-shadow: 0px -1px 0px #333333;
+	}
+	
+	#login .registerGroup a:hover,
+	#login .loginGroup a:hover { text-decoration:none; }
+	
+	#login .registerGroup a strong,
+	#login .loginGroup a strong {
+		display:block;
+		position:absolute;
+		left:0; top:0;
+		width:100%;
+		overflow:hidden;
+		
+		font-size:11px;
+		text-indent:-9999px;
+	}
+	
+	#login .userMessages a,
+	#login .userNotifications a { background-color: #333;display:none; }	
+	
+	#login .userMessages strong { 
+		height: 100%;
+		background: url('images/icon_message.png') no-repeat center center;
+	}
+	
+	#login .userNotifications { border-right: 1px solid #CCC;display:none; }
+	
+	#login .userNotifications strong { 
+		height: 100%;		
+		background: url('images/icon_notification.png') no-repeat center center;
+	}
+	
+	#login .registerGroup a span {
+		display:inline-block;
+		position:absolute;
+		right:2px; top:-9px;
+		min-width:7px;
+		margin-right:3px;
+		background: rgb(59,150,182); /* Old browsers */
+		
+		text-align:center;
+		font-size:11px;
+		color:#fff;
+		text-shadow: 0px 1px 0px #333333;
+	}
+	
+	#login .registerGroup .userProfileImg a{
+		min-width:25px;
+		min-height: 32px;
+		padding:0;
+		background:none;
+		
+	}
+	
+	#login .registerGroup a img{
+		height:32px; width:32px;
+		
+	}
+	
+	/* Login Group Styles */
+	#login .loginGroup { border-right: 1px solid #CCC;} 
+	#login .loginGroup a {color:#FFF; }
+	
+	/* Number of message next to the message icon*/
+	#login .userMessages  a  span,
+	#login .userNotifications   a  span	{ 
+		display: inline-block; 
+		margin-top: 9px; 
+		margin-right: 0px; 
+		background-color: transparent;
+		
+		font-size: 10px;
+	}
+	
+	
+/* ----------------------------------*/
+/* DNN Module: ViewProfile Image */
+/* ----------------------------------*/
+    #UserProfileImg img {
+	    width: 100px;
+	    height: auto;
+	    border: solid 3px #fff;
+    }
+	
+	
+/*------------------------------------------------*/
+/* CONTENT PANES */
+/*------------------------------------------------*/
+
+    .wrapper {
+	    margin: 0 Auto;
+	    width: 940px;
+		clear:both;
+    }
+	
+    .contentPane {}
+
+    /* Content Pane - Home */
+    .leftPane {
+	    float: left;
+	    width: 630px;
+    }
+
+    .sidebarPane {
+	    float: right;
+	    width: 320px;
+    }
+
+    /* Content Pane - 2 columns */
+    .twoColRightPane {
+	    float: right;
+	    width: 260px;
+    }
+
+    .twoColLeftPane {
+	    float: left;
+	    width: 690px;
+    }
+
+	.leftPaneLowerLeft {
+		float: left;
+		width: 400px;
+	}
+
+	.leftPaneLowerRight {
+		float: right;
+		width: 260px;
+	}
+
+    /* Content Pane - 3 columns Social */
+    .threeColLeftPane {
+	    float: left;
+	    width: 120px;
+    }
+
+    .threeColCenterPane {
+	    float: left; position: relative;
+	    width: 550px;
+    }
+
+    .threeColRightPane {
+	padding-left:10px;
+	    float: left;
+	    width: 250px;	
+    }
+
+    /* Content Pane - Footer */
+    #footer {
+	    clear: both;
+	    height: 230px;
+	    margin-top: 70px;
+	    background:url('images/globe.png') no-repeat;
+    }
+
+	.footerPane {
+		float: left;
+		width: 136px;
+	}
+
+	.footerPane, 
+	.footerPane .Normal {
+		color: #808080;
+	}
+
+	.footerPaneRight { 
+		float: right; 
+	} 
+	
+    /* Empty Panes */
+    .DNNEmptyPane{width:0; margin:0;}
+    .DNNEmptyPane.rightTwoCol+div{width: 100%;}
+	
+
+/* ----------------------------------*/
+/* DNN Module: ViewProfile Image */
+/* ----------------------------------*/
+    #UserProfileImg img {
+	    width: 100px;
+	    height: auto;
+	    border: solid 3px #fff;
+    }
+
+    .threeColSocial .UserProfileControls ul {
+	    margin: 15px 0;
+    }
+
+    .threeColSocial .UserProfileControls ul li {
+	    list-style-type: none;
+	    margin-bottom: 3px;
+	 }
+
+
+    /* ----------------------------------*/
+    /* DNN Module: Console */
+    /* ----------------------------------*/
+    .threeColSocial .console {
+	    width: 250px;
+	    height: auto;
+	    background-color: #484848; /* Menu Background Color */
+    }
+
+    .threeColSocial .console-none div {  
+	    cursor: pointer;
+	    cursor: hand;
+	    float:left; 
+	    height: auto; 
+	    width: 250px;
+	    padding:0px; 
+	    margin:0px;  
+	    text-align:left; 	
+	}
+
+    .threeColSocial .console-none h3 {
+        padding:10px 8px 10px 40px; 
+	    margin: 0; 	   
+	    border-bottom: solid 1px #fff; 
+	    background: url('images/arrow.png') 18px center no-repeat;
+	    
+	    color: #eee;  
+	    font-size:13px; 
+	    line-height: 1; 
+	    font-weight: bold;
+	}
+
+    .threeColSocial .console-none div div { display:none; }
+    .threeColSocial .console-mouseon { background-color:#70b1c7; /* Menu Hover Background Color */ } 
+
+
+
+
+/* User Controls Menu */
+.userProperties {
+    float: right;
+    max-width: 260px; /* grow user information to a max of 260px */
+}
+
+    .userProperties > ul {
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+
+        .userProperties > ul li {
+            position: relative;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .userProperties > ul li.userLogin a {
+                border-left: solid 1px #fff;
+            }
+
+        .userProperties > ul > li,
+        .userProperties > ul > li > span {
+            float: left;
+        }
+
+            /*.userProperties > ul > li. img, */
+            .userProperties > ul > li > a {
+                width: auto;
+                display: block;
+                color: #fff;
+                font-size: 12px;
+                font-weight: normal;
+                text-decoration: none;
+            }
+
+.userName,
+.userRegister,
+.userLogin {
+    padding-top: 0px;
+}
+
+    .userRegister > a,
+    .userLogin > a {
+        display: inline-block;
+        line-height: 1;
+        padding: 0 8px;
+        margin-top: 8px;
+        background: none;
+    }
+
+        .userRegister > a:hover,
+        .userLogin > a:hover,
+        .userName > a:hover {
+            color: #7ed3fc;
+        }
+
+.userName {
+    max-width: 200px; /* user name and arrow max width */
+}
+
+    .userName > a {
+        display: inline-block;
+        padding: 5px 25px 5px 10px;
+        margin-right: 1px;
+        background: url("images/arrowDown.png") no-repeat 95% center;
+        /* styles to handle long names */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 3px;
+    }
+
+        .userName > a.active {
+            color: #ff8015;
+        }
+
+.userProfile .userProfileImg {
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    height: auto!important;
+}
+
+    .userProfile .userProfileImg img {
+        width: 28px;
+        height: 28px;
+padding:0px!important;
+    }
+
+.userProfile .userMessages {
+    display: none;
+}
+
+    .userProfile .userMessages:after {
+        content: '';
+        position: absolute;
+        left: -4px;
+        top: 5px;
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        line-height: 0px;
+        border-bottom: 4px solid transparent; /* left arrow slant */
+        border-top: 4px solid transparent; /* right arrow slant */
+        border-right: 4px solid #f7f7f7; /* bottom, add background color here */
+    }
+
+/* User Controls Menu Drop Down */
+.userProperties ul.userMenu {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    width: 225px;
+    top: 10px;
+    left: 0;
+    border: 1px solid #fff;
+    margin: 25px 0 0 0;
+    background: #fff;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+    -webkit-animation-duration: .25s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .25s;
+    -moz-animation-delay: .2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .25s;
+    -ms-animation-delay: .2s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .25s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    padding: 5px;
+}
+
+    .userProperties ul.userMenu li {
+        position: relative;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+.userProperties li.userNotifications,
+.userProperties li.userProfilename {
+    border-bottom: 1px dotted #999;
+}
+
+.userProperties ul.userMenu a {
+    display: block;
+    padding: 5px 15px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    transition: all ease-in 100ms;
+    -moz-transition: all ease-in 100ms;
+    -webkit-transition: all ease-in 100ms;
+    -o-transition: all ease-in 100ms;
+    -ms-transition: all ease-in 100ms;
+    text-transform: none;
+}
+
+    .userProperties ul.userMenu a span {
+        padding: 0px 4px;
+        background: rgba(0,0,0,0.45);
+        border-radius: 3px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #fff;
+		display: none;
+    }
+
+.userProperties ul.userMenu li:last-child > a {
+    padding-top: 10px;
+}
+
+.userProperties ul.userMenu li:hover > a,
+.userProperties ul.userMenu li:hover > a strong {
+    color: #ff5f76;
+    background: #f4f4f4;
+}
+

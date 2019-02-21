@@ -1,0 +1,29 @@
+@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic; 
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+@{ var root = Model.Source.root; }
+@helper RenderNodes(IList<MenuNode> nodes) {
+    var sWid = "";
+    foreach (var node in nodes) {
+
+        if (@node.Breadcrumb)
+        {
+            @RenderNodes(node.Children)
+        }
+
+            if (node.Depth > 0) {
+                    <span class="mi mi0 id58 root first">
+                                    @if (node.Enabled) {
+				var classString = "ANH" + node.Selected;
+                                        <a href="@node.Url" class="@classString">@node.Text</a>
+                                    } else {
+                                        @node.Text
+                                    }
+                    </span>
+
+            } 
+        }
+    }
+
+
+@RenderNodes(root.Children)

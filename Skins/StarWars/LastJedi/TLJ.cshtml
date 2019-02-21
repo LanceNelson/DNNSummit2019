@@ -1,0 +1,35 @@
+@using DotNetNuke.Web.DDRMenu;
+@using System.Dynamic; 
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+@{ var root = Model.Source.root; }
+@helper RenderNodes(IList<MenuNode> nodes) {
+    foreach (var node in nodes) {
+
+        <div class="m m0 mainMenu">
+                <span class="mi mi0 id58 root first">
+                    @if (node.Enabled) {
+                        <a href="@node.Url">@node.Text.Replace("TLJ","")</a>
+                    } 
+                    @if (node.Children.Count > 0) {
+                    <div class="subMenu" style="margin-top:20px;min-width:100px;">
+                        @RenderNodes(node.Children)
+                    </div>
+                    }
+                </span>          
+        </div>
+    }
+}
+
+@RenderNodes(root.Children)
+
+
+<script>
+$(document).ready(function() {
+    $(".root").hover(function() {
+        $(this).children("div").show();
+    },function() {
+        $(this).children("div").hide();
+    })
+})
+
+</script>
